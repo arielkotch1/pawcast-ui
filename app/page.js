@@ -3,6 +3,7 @@ import Image from "next/image"
 import HomeScreen from "@/public/home.png"
 import FloatingNav from "@/components/FloatingNav"
 import PerDogTuning from "@/components/PerDogTuning"
+import FAQ from "@/components/FAQ"
 import { Apple, ArrowRight, CloudSun, Dog, Star, ThermometerSun } from "lucide-react"
 
 export default function Home() {
@@ -95,6 +96,7 @@ export default function Home() {
         </div>
       </main>
       <PerDogTuning  />
+      <FAQ />
     </div>
   )
 }
