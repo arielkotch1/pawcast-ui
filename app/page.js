@@ -34,7 +34,7 @@ export default function Home() {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 mb-6 md:mb-12">
               <a
                 href="https://apps.apple.com"
                 target="_blank"
