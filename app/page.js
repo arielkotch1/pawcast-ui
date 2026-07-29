@@ -11,12 +11,12 @@ export default function Home() {
       {" "}
       <FloatingNav />
       {/* Main Content */}
-      <main className="pt-32 pb-20 px-6 md:px-12 max-w-7xl mx-auto">
+      <main className="pt-28 md:pt-32 pb-20 px-6 md:px-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
             {/* Badge */}
-            <p className="text-xs font-semibold text-gray-500 tracking-widest mb-8">
+            <p className="text-xs font-semibold text-gray-500 tracking-widest mb-3 md:mb-8">
               PAWSOUT · IOS
             </p>
 
