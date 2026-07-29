@@ -75,8 +75,19 @@ export default function Home() {
           <div className="flex justify-center md:justify-end">
             <div className="w-full max-w-xs">
               {/* iPhone Frame */}
-              <div className="bg-black rounded-3xl p-3 shadow-2xl" style={{ aspectRatio: "9/19" }}>
-                <Image alt="pawsout home screen" src={HomeScreen} height={1000} width={1000} />
+              <div
+                className="overflow-hidden rounded-[3rem] bg-black p-3 shadow-2xl"
+                style={{ aspectRatio: "9/19" }}
+              >
+                <div className="relative h-full w-full overflow-hidden rounded-[2.25rem]">
+                  <Image
+                    alt="PawsOut home screen"
+                    src={HomeScreen}
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
