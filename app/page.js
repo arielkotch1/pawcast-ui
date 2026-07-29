@@ -42,7 +42,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-highlight text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors"
               >
-                <span className="text-xl leading-none"></span>
+                <span className="hidden md:block text-xl leading-none"></span>
                 Download on Apple
               </a>
               {/* <a
