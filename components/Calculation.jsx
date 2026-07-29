@@ -32,7 +32,7 @@ export default function DogCard({ mockData = {} }) {
 
       {/* Safe until */}
       <div className="mb-4 flex items-center gap-2">
-        <span className="text-[32px] font-bold">
+        <span className="text-[28px] md:text-[32px] font-bold">
           <span className={`${textColors[mockData?.type.toLowerCase()]}`}>
             {mockData?.type} {""}
           </span>
@@ -40,7 +40,7 @@ export default function DogCard({ mockData = {} }) {
         </span>
 
         <span
-          className={`text-[32px] font-bold underline ${textColors[mockData?.type.toLowerCase()]}`}
+          className={`text-[28px] md:text-[32px] font-bold underline ${textColors[mockData?.type.toLowerCase()]}`}
         >
           {mockData.until}
         </span>
@@ -55,7 +55,7 @@ export default function DogCard({ mockData = {} }) {
               style={{
                 opacity: mockData?.currentHour > index ? "50%" : "100%",
               }}
-              className={`h-[50px] flex-1 rounded-full ${statusColors[status]}`}
+              className={`h-[30px] md:h-[40px] flex-1 rounded-full ${statusColors[status]}`}
             />
           ))}
         </div>
