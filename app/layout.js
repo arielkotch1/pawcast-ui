@@ -14,12 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistMono.variable} antialiased min-h-screen bg-[#5EA280]`}>
-      <body className="min-h-screen">
-                  <div className="pointer-events-none absolute -inset-10 -z-10 bg-gradient-to-br from-[#E8F3EE]/60 via-[#B8D8C8]/70 to-[#5EA280] blur-[100px]" />
-
-        <main className="min-h-screen bg-gradient-to-br from-[#E8F3EE]/60 via-[#B8D8C8]/70 to-[#5EA280]">
+      <body className="min-h-screen bg-transparent">
+        {/* <main className="min-h-screen bg-gradient-to-br from-[#E8F3EE]/60 via-[#B8D8C8]/70 to-[#5EA280]"> */}
           {children}
-        </main>
+        {/* </main> */}
       </body>
     </html>
   )
