@@ -10,8 +10,8 @@ export default function FloatingNav() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50">
-      <div className="mx-auto max-w-full px-6 py-4 backdrop-blur-sm bg-white/80 shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 ">
+      <div className="mx-4 md:rounded-full rounded-[10px]  mt-3 max-w-full px-6 py-4 backdrop-blur-sm bg-white/40 shadow-sm">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <span className="text-2xl font-bold text-highlight font-sans">PawsOut</span>
@@ -19,7 +19,7 @@ export default function FloatingNav() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <a
+            {/* <a
               href="#features"
               className="text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
             >
@@ -30,7 +30,7 @@ export default function FloatingNav() {
               className="text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
             >
               How it Works
-            </a>
+            </a> */}
             <Link
               href="/privacy"
               className="text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
@@ -43,12 +43,12 @@ export default function FloatingNav() {
             >
               Terms
             </Link>
-            <a
+            {/* <a
               href="mailto:contact@pawsout.app"
               className="text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
             >
               Contact
-            </a>
+            </a> */}
             <a
               href="https://apps.apple.com"
               target="_blank"
@@ -71,42 +71,42 @@ export default function FloatingNav() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden mt-4 space-y-4 pb-4 border-t border-gray-200 pt-4">
-            <a
+          <div className="md:hidden font-medium  mt-4 space-y-4 pb-4 border-t border-gray-200 pt-4">
+            {/* <a
               href="#features"
-              className="block text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
+              className="block text-sm text-black hover:text-orange-600 transition-colors font-sans"
               onClick={() => setIsOpen(false)}
             >
               Features
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="#how-it-works"
-              className="block text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
+              className="block text-sm text-black hover:text-orange-600 transition-colors font-sans"
               onClick={() => setIsOpen(false)}
             >
               How it Works
-            </a>
+            </a> */}
             <Link
               href="/privacy"
-              className="block text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
+              className="block text-sm text-black hover:text-orange-600 transition-colors font-sans"
               onClick={() => setIsOpen(false)}
             >
               Privacy
             </Link>
             <Link
               href="/terms"
-              className="block text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
+              className="block text-sm text-black hover:text-orange-600 transition-colors font-sans"
               onClick={() => setIsOpen(false)}
             >
               Terms
             </Link>
-            <a
+            {/* <a
               href="mailto:contact@pawsout.app"
-              className="block text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
+              className="block text-sm text-black hover:text-orange-600 transition-colors font-sans"
               onClick={() => setIsOpen(false)}
             >
               Contact
-            </a>
+            </a> */}
             <a
               href="https://apps.apple.com"
               target="_blank"

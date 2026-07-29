@@ -2,11 +2,11 @@ import pawsoutLogo from "@/public/pawsout-logo.png"
 import Image from "next/image"
 import HomeScreen from "@/public/home.png"
 import FloatingNav from "@/components/FloatingNav"
-import { Apple, ArrowRight, Star } from "lucide-react"
+import { Apple, ArrowRight, CloudSun, Dog, Star, ThermometerSun } from "lucide-react"
 
 export default function Home() {
   return (
-    <div  className="min-h-screen bg-transparent">
+    <div className="min-h-screen bg-transparent">
       {" "}
       <FloatingNav />
       {/* Main Content */}
@@ -53,15 +53,21 @@ export default function Home() {
             </div>
 
             {/* Footer Stats */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 text-sm text-gray-600">
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-gray-900 text-gray-900" />
-                ))}
-                <span className="ml-2 font-semibold">4.9 · 2,841 ratings</span>
+            <div className="flex flex-col items-start gap-3 text-sm text-gray-600 sm:flex-row sm:items-center sm:gap-6">
+              <div className="flex items-center gap-2">
+                <CloudSun className="h-4 w-4" />
+                <span className="font-semibold">Real-time weather</span>
               </div>
-              <span>33 languages</span>
-              <span className="font-semibold">Editor's Pick · Pets</span>
+
+              <div className="flex items-center gap-2">
+                <ThermometerSun className="h-4 w-4" />
+                <span className="font-semibold">Pavement heat</span>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <Dog className="h-4 w-4" />
+                <span className="font-semibold">Breed-based insights</span>
+              </div>
             </div>
           </div>
 

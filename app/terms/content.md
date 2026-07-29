@@ -1,7 +1,3 @@
-# Terms of Service for PawsOut
-
-**Last Updated:** July 28, 2026
-
 ## 1. Acceptance of Terms
 By downloading, installing, accessing, or using PawsOut (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not install or use the App.
 

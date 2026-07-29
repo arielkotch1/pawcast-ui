@@ -159,6 +159,6 @@ body::before {
 
 @layer base {
   body::before {
-    @apply bg-gradient-to-br from-[#E8F3EE]/90 via-[#B8D8C8]/70 to-[#5EA280] bg-no-repeat;
+    @apply bg-gradient-to-br from-[#E8F3EE]/100 via-[#B8D8C8]/90 to-[#5EA280] bg-no-repeat;
   }
 }

@@ -1,15 +1,10 @@
----
-title: "Privacy Policy for PawsOut"
-date: "Last Updated: July 28, 2026"
----
-
 ## Introduction
 
 PawsOut ("we," "us," "our," or "Company") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and otherwise handle your information when you use our mobile application PawsOut (the "App").
 
 Please read this privacy policy carefully. By using PawsOut, you acknowledge that you have read, understood, and agree to be bound by all the terms of this Privacy Policy.
 
----
+
 
 ## 1. Information We Collect
 
@@ -40,7 +35,7 @@ We request access to your photo library so you can select a photo of your dog. P
 ### Usage Data
 We may collect analytics about how you use the app (feature usage, error reports) through Expo analytics. This helps us improve the app and fix bugs.
 
----
+
 
 ## 2. How We Use Your Information
 
@@ -61,7 +56,7 @@ To provide personalized paw temperature safety calculations based on:
 * Store your location history
 * Combine data across multiple users
 
----
+
 
 ## 3. How Your Data Is Stored
 
@@ -85,7 +80,7 @@ You can delete all data by:
 
 This permanently removes all dog profiles, photos, and preferences from your device.
 
----
+
 
 ## 4. Third-Party Services
 
@@ -106,7 +101,7 @@ PawsOut uses the following third-party services:
 * **Data Shared:** App usage analytics (non-personal)
 * **Privacy Policy:** [Expo Privacy Policy](https://expo.dev/privacy)
 
----
+
 
 ## 5. Data Security
 
@@ -117,13 +112,13 @@ We take data security seriously:
 
 *However, no method of transmission over the internet or electronic storage is 100% secure. While we use industry-standard security measures, we cannot guarantee absolute security.*
 
----
+
 
 ## 6. Children's Privacy
 
 PawsOut is not intended for children under 13 years old. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided us personal information, we will delete such information promptly.
 
----
+
 
 ## 7. Your Rights
 
@@ -131,7 +126,7 @@ PawsOut is not intended for children under 13 years old. We do not knowingly col
 * **Delete Your Data:** You can delete all data at any time through the app's **Settings > Delete Data** feature.
 * **Data Portability:** You can export information about your dog by taking screenshots or notes within the app.
 
----
+
 
 ## 8. Location Permission Levels
 
@@ -140,7 +135,7 @@ PawsOut is not intended for children under 13 years old. We do not knowingly col
 
 You can change this setting at any time in your device's **Settings > Privacy > Location**.
 
----
+
 
 ## 9. Changes to This Privacy Policy
 
@@ -148,7 +143,7 @@ We may update this Privacy Policy from time to time to reflect changes in our pr
 
 Your continued use of PawsOut after such modifications constitutes your acceptance of the updated Privacy Policy.
 
----
+
 
 ## 10. Data Retention
 
@@ -156,7 +151,7 @@ Your continued use of PawsOut after such modifications constitutes your acceptan
 * **After Uninstalling:** All data is permanently deleted from your device.
 * **Server-Side:** We do not retain location or personal data on our servers.
 
----
+
 
 ## 11. Contact Us
 
@@ -166,13 +161,13 @@ If you have questions, concerns, or requests regarding this Privacy Policy or ou
 
 We will respond to privacy inquiries within 30 days.
 
----
+
 
 ## 12. Applicable Law
 
 This Privacy Policy is governed by and construed in accordance with the laws of the State of Israel, without regard to its conflict of law provisions.
 
----
+
 
 ### Acknowledgment
 
