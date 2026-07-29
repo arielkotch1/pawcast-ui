@@ -2,6 +2,7 @@ import pawsoutLogo from "@/public/pawsout-logo.png"
 import Image from "next/image"
 import HomeScreen from "@/public/home.png"
 import FloatingNav from "@/components/FloatingNav"
+import PerDogTuning from "@/components/PerDogTuning"
 import { Apple, ArrowRight, CloudSun, Dog, Star, ThermometerSun } from "lucide-react"
 
 export default function Home() {
@@ -93,6 +94,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <PerDogTuning  />
     </div>
   )
 }
