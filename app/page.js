@@ -21,20 +21,20 @@ export default function Home() {
             </p>
 
             {/* Headline */}
-            <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-6 leading-[4.3rem] md:leading-tight">
+            <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-5 md:mb-6 leading-[4.3rem] md:leading-tight">
               Because dogs feels weather <em className="italic text-gray-700">differently.</em>
               {/* Is it safe to walk your <em className="not-italic">dog</em> right now? */}
             </h1>
 
             {/* Description */}
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed max-w-lg">
+            <p className="text-lg text-gray-700 mb-5 md:mb-6 leading-relaxed max-w-lg">
               PawCast is built on the Canine Thermal Model (CTM) — a tool created by scientists to
               predict a dog's body temperature. Think of it as a virtual version of your dog that
               reacts to the weather, not just a forecast.
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-6 md:mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 mb-5 md:mb-6 md:mb-12">
               <a
                 href="https://apps.apple.com"
                 target="_blank"

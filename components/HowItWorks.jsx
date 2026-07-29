@@ -74,7 +74,7 @@ export default function HowItWorks() {
             <h3 className="text-3xl font-serif font-bold text-gray-900 mb-4">
               Ready to keep your dog safe?
             </h3>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-600 mb-5 md:mb-6">
               Download PawsOut today and start getting personalized walk scores for your dog.
             </p>
             <a
