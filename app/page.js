@@ -29,7 +29,7 @@ export default function Home() {
 
             {/* Description */}
             <p className="text-lg text-gray-700 mb-5 md:mb-6 leading-relaxed max-w-lg">
-              PawCast is built on the Canine Thermal Model (CTM) — a tool created by scientists to
+              Pawsout is built on the Canine Thermal Model (CTM) — a tool created by scientists to
               predict a dog's body temperature. Think of it as a virtual version of your dog that
               reacts to the weather, not just a forecast.
             </p>

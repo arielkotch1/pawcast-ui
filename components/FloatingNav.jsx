@@ -43,6 +43,12 @@ export default function FloatingNav() {
             >
               Terms
             </Link>
+            <Link
+              href="/contact"
+              className="text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
+            >
+              Contact
+            </Link>
             {/* <a
               href="mailto:contact@pawsout.app"
               className="text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
@@ -99,6 +105,13 @@ export default function FloatingNav() {
               onClick={() => setIsOpen(false)}
             >
               Terms
+            </Link>
+            <Link
+              href="/contact"
+              className="block text-md text-black hover:text-orange-600 transition-colors font-sans"
+              onClick={() => setIsOpen(false)}
+            >
+              Contact
             </Link>
             {/* <a
               href="mailto:contact@pawsout.app"
