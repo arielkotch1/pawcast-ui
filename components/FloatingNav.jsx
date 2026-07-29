@@ -71,7 +71,7 @@ export default function FloatingNav() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden font-medium  mt-4 space-y-4 pb-4 border-t border-gray-200 pt-4">
+          <div className="md:hidden font-medium  mt-4  space-y-5 pb-4 border-t border-gray-200 pt-5">
             {/* <a
               href="#features"
               className="block text-sm text-black hover:text-orange-600 transition-colors font-sans"
@@ -88,14 +88,14 @@ export default function FloatingNav() {
             </a> */}
             <Link
               href="/privacy"
-              className="block text-sm text-black hover:text-orange-600 transition-colors font-sans"
+              className="block text-md text-black hover:text-orange-600 transition-colors font-sans"
               onClick={() => setIsOpen(false)}
             >
               Privacy
             </Link>
             <Link
               href="/terms"
-              className="block text-sm text-black hover:text-orange-600 transition-colors font-sans"
+              className="block text-md text-black hover:text-orange-600 transition-colors font-sans"
               onClick={() => setIsOpen(false)}
             >
               Terms
@@ -111,7 +111,7 @@ export default function FloatingNav() {
               href="https://apps.apple.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-700 transition-colors text-center font-sans"
+              className="block bg-orange-600 text-white px-4 py-2 rounded-full text-md font-semibold hover:bg-orange-700 transition-colors text-center font-sans"
             >
               Download
             </a>
