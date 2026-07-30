@@ -24,7 +24,7 @@ export default function ForcastCard({ mockData = {} }) {
           <div className="h-px flex-1 bg-neutral-600/30" />
         </div>
         <div className="flex flex-col gap-1">
-          <div className="flex gap-[6px]">
+          <div className="flex gap-[6px] md:gap-[10px]">
             {mockData.hours.map((status, index) => (
               <div
                 key={index}
