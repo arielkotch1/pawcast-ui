@@ -5,6 +5,7 @@ import FloatingNav from "@/components/FloatingNav"
 import PerDogTuning from "@/components/PerDogTuning"
 import FAQ from "@/components/FAQ"
 import { Apple, ArrowRight, CloudSun, Dog, Star, ThermometerSun } from "lucide-react"
+import Forcast from "@/components/Forcast"
 
 export const metadata = {
   title: "PawsOut | Dog Weather App",
@@ -107,6 +108,7 @@ export default function Home() {
         </div>
       </main>
       <PerDogTuning  />
+      <Forcast/>
       <FAQ />
     </div>
   )
