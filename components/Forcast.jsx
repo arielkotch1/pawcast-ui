@@ -7,7 +7,6 @@ export default function Forcast() {
     {
       day: "TOMMOROW",
       date: "July 21",
-      currentHour: 4,
       hours: [
         "safe",
         "safe",
@@ -30,7 +29,6 @@ export default function Forcast() {
     {
       day: "SAT",
       date: "AUG 1",
-      currentHour: 4,
       hours: [
         "safe",
         "safe",
@@ -53,7 +51,6 @@ export default function Forcast() {
     {
       day: "SUN",
       date: "AUG 2",
-      currentHour: 4,
       hours: [
         "safe",
         "safe",
