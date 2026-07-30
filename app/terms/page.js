@@ -4,6 +4,19 @@ import path from "path"
 import matter from "gray-matter"
 import { MDXRemote } from "next-mdx-remote/rsc"
 
+export const metadata = {
+  title: "Terms of Service | PawsOut",
+  description: "Read PawsOut Terms of Service. PawsOut is an educational app. Always use your own judgment for your dog's safety.",
+  robots: { index: true, follow: true },
+  alternates: { canonical: "https://pawsout.app/terms" },
+  openGraph: {
+    title: "Terms of Service | PawsOut",
+    description: "Read PawsOut Terms of Service.",
+    url: "https://pawsout.app/terms",
+    type: "website",
+  },
+}
+
 export default async function TermsOfService() {
   // 1. Locate the file on the file system
   const filePath = path.join(process.cwd(), "app", "terms", "content.md")

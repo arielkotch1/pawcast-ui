@@ -6,9 +6,32 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 })
 
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://pawsout.app"
+
 export const metadata = {
-  title: "Pawsout",
-  description: "Dog Walk Weather",
+  metadataBase: new URL(baseUrl),
+  title: "PawsOut | Dog Weather App",
+  description: "Calculate safe walking conditions for your dog based on real-time weather, breed, and terrain. Protect your pup with thermal analysis.",
+  keywords: ["dog safety", "dog walking", "weather app", "pet care", "dog health"],
+  authors: [{ name: "PawsOut" }],
+  creator: "PawsOut",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: baseUrl,
+    siteName: "PawsOut",
+    title: "PawsOut | Dog Weather App",
+    description: "Calculate safe walking conditions for your dog based on weather, breed, and terrain.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "PawsOut" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PawsOut - Dog Weather Safety",
+    description: "Calculate safe walking conditions for your dog.",
+    images: ["/og-image.png"],
+  },
+  robots: { index: true, follow: true },
+  alternates: { canonical: baseUrl },
 }
 
 export default function RootLayout({ children }) {

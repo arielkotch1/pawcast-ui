@@ -6,6 +6,17 @@ import PerDogTuning from "@/components/PerDogTuning"
 import FAQ from "@/components/FAQ"
 import { Apple, ArrowRight, CloudSun, Dog, Star, ThermometerSun } from "lucide-react"
 
+export const metadata = {
+  title: "PawsOut | Dog Weather App",
+  description: "Is it safe to walk your dog? PawsOut calculates real-time thermal safety for your pup based on weather, breed, and terrain.",
+  openGraph: {
+    title: "PawsOut | Dog Weather App",
+    description: "Calculate safe walking conditions for your dog right now.",
+    url: "https://pawsout.app",
+    type: "website",
+  },
+}
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-transparent">

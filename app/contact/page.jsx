@@ -1,6 +1,19 @@
 import FloatingNav from "@/components/FloatingNav"
 import Link from "next/link"
 
+export const metadata = {
+  title: "Contact Us | PawsOut",
+  description: "Get in touch with the PawsOut team. Send us your questions, feedback, or bug reports.",
+  robots: { index: true, follow: true },
+  alternates: { canonical: "https://pawsout.app/contact" },
+  openGraph: {
+    title: "Contact Us | PawsOut",
+    description: "Get in touch with the PawsOut team.",
+    url: "https://pawsout.app/contact",
+    type: "website",
+  },
+}
+
 export default function Contact() {
   return (
     <div className="min-h-screen bg-transparent flex justify-center items-center">
