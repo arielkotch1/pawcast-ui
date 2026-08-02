@@ -1,4 +1,5 @@
 import { Geist_Mono } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const geistMono = Geist_Mono({
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
         {/* <main className="min-h-screen bg-gradient-to-br from-[#E8F3EE]/60 via-[#B8D8C8]/70 to-[#5EA280]"> */}
           {children}
         {/* </main> */}
+        <Analytics />
       </body>
     </html>
   )

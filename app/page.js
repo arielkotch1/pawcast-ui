@@ -48,15 +48,27 @@ export default function Home() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-5 md:mb-6 md:mb-12">
-              <a
-                href="https://apps.apple.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-highlight text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors"
+              <form
+                action="https://formspree.io/f/xldwzdpw"
+                method="POST"
+                className="inline-flex"
               >
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="your@email.com"
+                  required
+                  className="px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                />
+                <input type="hidden" name="message" value="Notify me when PawsOut is available on Apple App Store" />
+                <button
+                  type="submit"
+                  className="inline-flex items-center justify-center gap-2 bg-highlight text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors"
+                >
                 <span className="hidden md:block text-xl leading-none"></span>
-                Download on Apple
-              </a>
+                Notify me
+                </button>
+              </form>
               {/* <a
                 href="#how-it-works"
                 className="inline-flex items-center justify-center gap-2 border-2 border-gray-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:border-gray-600 hover:bg-gray-50 transition-colors"

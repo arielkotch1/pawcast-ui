@@ -86,7 +86,7 @@ export default function Forcast() {
       </div>
 
       {/* Dog Cards */}
-      <div className="w-full max-w-full rounded-[40px] flex flex-col gap-5 border border-white/10 bg-[#1c1c1c] p-10 text-white">
+      <div className="w-full max-w-full rounded-[40px] flex flex-col gap-5 border border-white/10 bg-[#1c1c1c] p-6  md:p-10 text-white">
         {dogs.map((data, index) => (
           <ForcastCard mockData={data} key={index} />
         ))}
