@@ -47,7 +47,7 @@ export default function Home() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-5 md:mb-6 md:mb-12">
               <a
-                href="https://apps.apple.com"
+                href="https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-highlight text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors"

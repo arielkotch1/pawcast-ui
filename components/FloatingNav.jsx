@@ -121,7 +121,7 @@ export default function FloatingNav() {
               Contact
             </a> */}
             <a
-              href="https://apps.apple.com"
+              href="https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-orange-600 text-white px-4 py-2 rounded-full text-md font-semibold hover:bg-orange-700 transition-colors text-center font-sans"
