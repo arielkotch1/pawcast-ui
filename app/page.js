@@ -153,34 +153,38 @@ export default function Home() {
       <main className="pt-28 md:pt-32 pb-20 px-6 md:px-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div>
+          <div className="min-w-0">
             {/* Badge */}
-            <p className="text-xs font-semibold text-gray-500 tracking-widest mb-3 md:mb-8">
-              PAWSOUT · IOS
+            <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold text-gray-500 tracking-widest mb-3 md:mb-8">
+              <span>PAWSOUT · IOS</span>
+              <span aria-hidden="true">·</span>
+              <a
+                href="https://www.producthunt.com/products/pawsout"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-800"
+              >
+                PRODUCT HUNT
+              </a>
+              <span aria-hidden="true">·</span>
+
+              <a
+                href="https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 hover:text-gray-800"
+              >
+                <span className="flex items-center text-yellow-500" aria-hidden="true">
+                  <Star className="h-3 w-3 fill-current" />
+                  <Star className="h-3 w-3 fill-current" />
+                  <Star className="h-3 w-3 fill-current" />
+                  <Star className="h-3 w-3 fill-current" />
+                  <Star className="h-3 w-3 fill-current" />
+                </span>
+                5.0 · 3 RATINGS
+              </a>
+
             </p>
-            <a
-              href="https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mb-2 inline-flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-            >
-              <span className="flex items-center gap-0.5 text-yellow-500" aria-hidden="true">
-                <Star className="h-4 w-4 fill-current" />
-                <Star className="h-4 w-4 fill-current" />
-                <Star className="h-4 w-4 fill-current" />
-                <Star className="h-4 w-4 fill-current" />
-                <Star className="h-4 w-4 fill-current" />
-              </span>
-              5.0 · 3 ratings on the App Store
-            </a>
-            <a
-              href="https://www.producthunt.com/products/pawsout"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mb-5 block text-sm font-semibold text-gray-600 hover:text-gray-900 md:mb-8"
-            >
-              Featured on Product Hunt
-            </a>
 
             {/* Headline */}
             <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-5 md:mb-6 leading-[4.3rem] md:leading-tight">
@@ -253,8 +257,8 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <PerDogTuning  />
-      <Forcast/>
+      <PerDogTuning />
+      <Forcast />
       <section className="pb-20 px-6 md:px-12 max-w-7xl mx-auto">
         <p className="text-sm font-semibold text-gray-600 tracking-widest mb-4">APP STORE REVIEWS</p>
         <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-5 md:mb-6">
