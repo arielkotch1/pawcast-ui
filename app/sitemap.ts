@@ -11,7 +11,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${baseUrl}/guides`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/is-it-safe-to-walk-my-dog-in-hot-weather`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/is-it-too-cold-to-walk-my-dog`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/is-the-pavement-too-hot-for-my-dog`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,

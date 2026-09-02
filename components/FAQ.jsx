@@ -16,6 +16,20 @@ export default function FAQ() {
       linkLabel: "Read the full hot-weather guide",
     },
     {
+      question: "Is it too cold to walk my dog?",
+      answer:
+        "It depends on your dog and the conditions, not just the air temperature. Wind, wet fur, ice, and salt raise risk. Small, short-coated, senior, and puppy dogs get cold faster than thick-coated working breeds.",
+      href: "/is-it-too-cold-to-walk-my-dog",
+      linkLabel: "Read the full cold-weather guide",
+    },
+    {
+      question: "Is the pavement too hot for my dog?",
+      answer:
+        "Use the 7-second hand test. If you cannot hold the back of your hand on the ground for 7 seconds, it is too hot for paws. Asphalt in sun is the highest risk; grass and shade stay cooler.",
+      href: "/is-the-pavement-too-hot-for-my-dog",
+      linkLabel: "Read the full pavement guide",
+    },
+    {
       question: "What is the Canine Thermal Model?",
       answer:
         "PawsOut is built on the Canine Thermal Model (CTM) — a scientific tool created by researchers to predict a dog's body temperature. It's like a virtual version of your dog that reacts to real weather conditions, not just a forecast. The model considers your dog's size, coat type, muzzle length, and environmental factors like temperature, sun, and wind to estimate how hot or cold your dog actually feels.",
@@ -35,6 +49,8 @@ export default function FAQ() {
       question: "What does 'Check Pavement' mean?",
       answer:
         "When the app shows 'Check Pavement,' it means the ground surface temperature is in the caution or dangerous zone. We recommend using the back of your hand to test the pavement for 7 seconds before letting your dog walk on it. If it's too hot for your hand, it's too hot for your dog's paws.",
+      href: "/is-the-pavement-too-hot-for-my-dog",
+      linkLabel: "Read the pavement guide",
     },
     {
       question: "What about my data?",

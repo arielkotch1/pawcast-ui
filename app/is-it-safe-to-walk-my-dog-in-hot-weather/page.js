@@ -1,5 +1,6 @@
 import Link from "next/link"
 import FloatingNav from "@/components/FloatingNav"
+import GuideLinks from "@/components/GuideLinks"
 import { ogImage } from "@/lib/og"
 
 const appStoreUrl = "https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
@@ -181,10 +182,12 @@ export default function HotWeatherGuide() {
           </a>
         </div>
 
-        <p className="text-sm text-gray-600 leading-relaxed">
+        <p className="text-sm text-gray-600 leading-relaxed mb-4">
           PawsOut is an educational weather tool, not a medical diagnosis. Always use your own
           judgment for your dog&apos;s safety.
         </p>
+
+        <GuideLinks current="/is-it-safe-to-walk-my-dog-in-hot-weather" />
       </article>
     </div>
   )

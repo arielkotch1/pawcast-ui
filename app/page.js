@@ -22,6 +22,22 @@ const faqJsonLd = {
     },
     {
       "@type": "Question",
+      name: "Is it too cold to walk my dog?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "It depends on your dog and the conditions, not just the air temperature. Wind, wet fur, ice, and salt raise risk. Small, short-coated, senior, and puppy dogs get cold faster than thick-coated working breeds. Read the full cold-weather guide at https://pawsout.app/is-it-too-cold-to-walk-my-dog",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the pavement too hot for my dog?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Use the 7-second hand test. If you cannot hold the back of your hand on the ground for 7 seconds, it is too hot for paws. Asphalt in sun is the highest risk; grass and shade stay cooler. Read the full pavement guide at https://pawsout.app/is-the-pavement-too-hot-for-my-dog",
+      },
+    },
+    {
+      "@type": "Question",
       name: "What is the Canine Thermal Model?",
       acceptedAnswer: {
         "@type": "Answer",

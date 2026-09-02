@@ -43,7 +43,6 @@ export const metadata = {
     card: "summary_large_image",
     title: "PawsOut - Dog Weather Safety",
     description: "Calculate safe walking conditions for your dog.",
-    creator: "@pawsout_app",
     images: [ogImage.url],
   },
   robots: { index: true, follow: true },
