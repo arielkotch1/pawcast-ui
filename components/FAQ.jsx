@@ -1,12 +1,20 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { ChevronDown } from "lucide-react"
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(0)
 
   const faqItems = [
+    {
+      question: "Is it safe to walk my dog in hot weather?",
+      answer:
+        "It depends on more than the air temperature. Pavement can be 20–30°C hotter than the air, and breeds handle heat differently. Check shade, ground type, and the 7-second hand test — or use PawsOut for a personalized walk window.",
+      href: "/is-it-safe-to-walk-my-dog-in-hot-weather",
+      linkLabel: "Read the full hot-weather guide",
+    },
     {
       question: "What is the Canine Thermal Model?",
       answer:
@@ -74,6 +82,14 @@ export default function FAQ() {
             {openIndex === index && (
               <div className="pb-6 pr-8">
                 <p className="text-gray-700 leading-relaxed">{item.answer}</p>
+                {item.href && (
+                  <Link
+                    href={item.href}
+                    className="inline-block mt-3 font-semibold text-highlight underline underline-offset-4 hover:opacity-80"
+                  >
+                    {item.linkLabel}
+                  </Link>
+                )}
               </div>
             )}
           </div>

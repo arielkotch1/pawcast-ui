@@ -14,6 +14,14 @@ const faqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
+      name: "Is it safe to walk my dog in hot weather?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "It depends on more than the air temperature. Pavement can be 20–30°C hotter than the air, and breeds handle heat differently. Check shade, ground type, and the 7-second hand test — or use PawsOut for a personalized walk window. Read the full hot-weather guide at https://pawsout.app/is-it-safe-to-walk-my-dog-in-hot-weather",
+      },
+    },
+    {
+      "@type": "Question",
       name: "What is the Canine Thermal Model?",
       acceptedAnswer: {
         "@type": "Answer",
@@ -220,6 +228,14 @@ export default function Home() {
             </figcaption>
           </figure>
         </div>
+        <a
+          href="https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280?action=write-review"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center gap-2 mt-8 bg-highlight text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors"
+        >
+          Rate PawsOut on the App Store
+        </a>
       </section>
       <FAQ />
     </div>

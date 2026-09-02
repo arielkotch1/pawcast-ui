@@ -32,6 +32,12 @@ export default function FloatingNav() {
               How it Works
             </a> */}
             <Link
+              href="/is-it-safe-to-walk-my-dog-in-hot-weather"
+              className="text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
+            >
+              Guide
+            </Link>
+            <Link
               href="/privacy"
               className="text-sm text-gray-600 hover:text-orange-600 transition-colors font-sans"
             >
@@ -92,6 +98,13 @@ export default function FloatingNav() {
             >
               How it Works
             </a> */}
+            <Link
+              href="/is-it-safe-to-walk-my-dog-in-hot-weather"
+              className="block text-md text-black hover:text-orange-600 transition-colors font-sans"
+              onClick={() => setIsOpen(false)}
+            >
+              Guide
+            </Link>
             <Link
               href="/privacy"
               className="block text-md text-black hover:text-orange-600 transition-colors font-sans"
