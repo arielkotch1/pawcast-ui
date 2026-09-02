@@ -6,6 +6,7 @@ import PerDogTuning from "@/components/PerDogTuning"
 import FAQ from "@/components/FAQ"
 import { Apple, ArrowRight, CloudSun, Dog, Star, ThermometerSun } from "lucide-react"
 import Forcast from "@/components/Forcast"
+import { ogImage } from "@/lib/og"
 
 export const metadata = {
   title: "PawsOut | Dog Weather App",
@@ -16,6 +17,7 @@ export const metadata = {
     description: "Calculate safe walking conditions for your dog right now.",
     url: "https://pawsout.app",
     type: "website",
+    images: [ogImage],
   },
 }
 

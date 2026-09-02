@@ -1,5 +1,6 @@
 import FloatingNav from "@/components/FloatingNav"
 import Link from "next/link"
+import { ogImage } from "@/lib/og"
 
 export const metadata = {
   title: "Contact Us | PawsOut",
@@ -11,6 +12,7 @@ export const metadata = {
     description: "Get in touch with the PawsOut team.",
     url: "https://pawsout.app/contact",
     type: "website",
+    images: [ogImage],
   },
 }
 

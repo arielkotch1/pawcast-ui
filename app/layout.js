@@ -1,5 +1,6 @@
 import { Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { ogImage } from "@/lib/og"
 import "./globals.css"
 
 const geistMono = Geist_Mono({
@@ -34,14 +35,14 @@ export const metadata = {
     siteName: "PawsOut",
     title: "PawsOut | Dog Weather App",
     description: "Calculate safe walking conditions for your dog based on weather, breed, and terrain.",
-    images: [{ url: `${baseUrl}/api/og/home`, width: 1200, height: 630, alt: "PawsOut - Dog Weather Safety" }],
+    images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
     title: "PawsOut - Dog Weather Safety",
     description: "Calculate safe walking conditions for your dog.",
     creator: "@pawsout_app",
-    images: [`${baseUrl}/api/og/home`],
+    images: [ogImage.url],
   },
   robots: { index: true, follow: true },
   alternates: { canonical: baseUrl },

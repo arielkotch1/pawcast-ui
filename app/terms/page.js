@@ -3,6 +3,7 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 import { MDXRemote } from "next-mdx-remote/rsc"
+import { ogImage } from "@/lib/og"
 
 export const metadata = {
   title: "Terms of Service | PawsOut",
@@ -14,6 +15,7 @@ export const metadata = {
     description: "Read PawsOut Terms of Service.",
     url: "https://pawsout.app/terms",
     type: "website",
+    images: [ogImage],
   },
 }
 
