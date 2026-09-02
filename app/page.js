@@ -106,7 +106,7 @@ export default function Home() {
               href="https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
               target="_blank"
               rel="noopener noreferrer"
-              className="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-gray-900 md:mb-8"
+              className="mb-2 inline-flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
             >
               <span className="flex items-center gap-0.5 text-yellow-500" aria-hidden="true">
                 <Star className="h-4 w-4 fill-current" />
@@ -116,6 +116,14 @@ export default function Home() {
                 <Star className="h-4 w-4 fill-current" />
               </span>
               5.0 · 3 ratings on the App Store
+            </a>
+            <a
+              href="https://www.producthunt.com/products/pawsout"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-5 block text-sm font-semibold text-gray-600 hover:text-gray-900 md:mb-8"
+            >
+              Featured on Product Hunt
             </a>
 
             {/* Headline */}

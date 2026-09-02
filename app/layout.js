@@ -10,6 +10,7 @@ const geistMono = Geist_Mono({
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://pawsout.app"
 const appStoreUrl = "https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
+const productHuntUrl = "https://www.producthunt.com/products/pawsout"
 
 export const metadata = {
   metadataBase: new URL(baseUrl),
@@ -133,7 +134,7 @@ export default function RootLayout({ children }) {
                 contactType: "Customer Support",
                 email: "arielkotch@outlook.com",
               },
-              sameAs: [appStoreUrl],
+              sameAs: [appStoreUrl, productHuntUrl],
             }),
           }}
         />
