@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
-Allow: /api/og/
-Disallow: /.next/
-Disallow: /api/
 
 Sitemap: https://pawsout.app/sitemap.xml
-Crawl-delay: 1

@@ -8,8 +8,63 @@ import { Apple, ArrowRight, CloudSun, Dog, Star, ThermometerSun } from "lucide-r
 import Forcast from "@/components/Forcast"
 import { ogImage } from "@/lib/og"
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is the Canine Thermal Model?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "PawsOut is built on the Canine Thermal Model (CTM) — a scientific tool created by researchers to predict a dog's body temperature. It's like a virtual version of your dog that reacts to real weather conditions, not just a forecast. The model considers your dog's size, coat type, muzzle length, and environmental factors like temperature, sun, and wind to estimate how hot or cold your dog actually feels.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What's a 'Next Walk Window'?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The Next Walk Window tells you the safest time today for your dog to go outside. It shows exactly when you have a safe window to walk — like 'Safe until 5 PM' — and updates throughout the day as weather conditions change.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Why does PawsOut ask about shade and ground type?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Shade and surface dramatically affect paw safety. In direct sun, pavement and asphalt can get dangerously hot — even hotter than the air temperature. A walk on shaded grass at 28°C is much safer than the same temperature on sun-baked concrete. By telling us the shade level and ground type, we give you a more accurate paw risk estimate.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does 'Check Pavement' mean?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "When the app shows 'Check Pavement,' it means the ground surface temperature is in the caution or dangerous zone. We recommend using the back of your hand to test the pavement for 7 seconds before letting your dog walk on it. If it's too hot for your hand, it's too hot for your dog's paws.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What about my data?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Your dog profiles, photos, and preferences are stored locally on your device only — they never leave your phone. Location data is used only in real-time to fetch accurate weather for your area. We don't store, log, or share your location history. You can delete all data anytime in Settings → Delete Data.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does it cost?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "PawsOut is completely free. There are no subscription fees, premium features, or in-app purchases. All features, including personalized walk scoring and next walk windows, are available to all users at no cost.",
+      },
+    },
+  ],
+}
+
 export const metadata = {
-  title: "PawsOut | Dog Weather App",
+  title: "PawsOut | Is It Safe to Walk Your Dog?",
   description: "Is it safe to walk your dog? PawsOut calculates real-time thermal safety for your pup based on weather, breed, pavement temperature, and terrain. Use the Canine Thermal Model for personalized dog walking recommendations.",
   keywords: ["is it safe to walk my dog", "dog weather app", "dog heat safety", "when to walk your dog", "dog temperature safety"],
   openGraph: {
@@ -24,7 +79,10 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="min-h-screen bg-transparent">
-      {" "}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <FloatingNav />
       {/* Main Content */}
       <main className="pt-28 md:pt-32 pb-20 px-6 md:px-12 max-w-7xl mx-auto">
