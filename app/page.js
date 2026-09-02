@@ -38,6 +38,46 @@ const faqJsonLd = {
     },
     {
       "@type": "Question",
+      name: "Is humidity too high to walk my dog?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "High humidity makes panting less effective, so a mild day can still be unsafe. Keep walks shorter, stay in shade, and watch for heavy panting. Read the humidity guide at https://pawsout.app/is-humidity-too-high-to-walk-my-dog",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I walk a French Bulldog or Pug in hot weather?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Only with extra caution. Flat-faced dogs cannot pant as efficiently, so they overheat sooner. Prefer early morning, shade, grass, and short loops. Read the brachycephalic heat guide at https://pawsout.app/walking-brachycephalic-dogs-in-heat",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is pavement too hot for dogs at 80°F?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "It can be. 80°F is the air temperature. In sun, asphalt can be much hotter. Use the 7-second hand test on the actual sidewalk. Read the 80°F pavement guide at https://pawsout.app/is-pavement-too-hot-for-dogs-at-80-degrees",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is it safe to walk a puppy in hot weather?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Only in short, shaded windows. Puppies have less heat reserve and thinner pads. Prefer grass and a loop you can cut short. Read the puppy heat guide at https://pawsout.app/is-it-safe-to-walk-a-puppy-in-hot-weather",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is it safe to walk a senior dog in hot weather?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Use a tighter window than you would for a young adult. Older dogs cool less efficiently. Prefer shade, grass, and the coolest hour. Read the senior heat guide at https://pawsout.app/is-it-safe-to-walk-a-senior-dog-in-hot-weather",
+      },
+    },
+    {
+      "@type": "Question",
       name: "What is the Canine Thermal Model?",
       acceptedAnswer: {
         "@type": "Answer",

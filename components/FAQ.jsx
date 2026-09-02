@@ -30,6 +30,41 @@ export default function FAQ() {
       linkLabel: "Read the full pavement guide",
     },
     {
+      question: "Is humidity too high to walk my dog?",
+      answer:
+        "High humidity makes panting less effective, so a mild day can still be unsafe. Keep walks shorter, stay in shade, and watch for heavy panting.",
+      href: "/is-humidity-too-high-to-walk-my-dog",
+      linkLabel: "Read the humidity guide",
+    },
+    {
+      question: "Can I walk a French Bulldog or Pug in hot weather?",
+      answer:
+        "Only with extra caution. Flat-faced dogs cannot pant as efficiently, so they overheat sooner. Prefer early morning, shade, grass, and short loops.",
+      href: "/walking-brachycephalic-dogs-in-heat",
+      linkLabel: "Read the brachycephalic heat guide",
+    },
+    {
+      question: "Is pavement too hot for dogs at 80°F?",
+      answer:
+        "It can be. 80°F is the air temperature. In sun, asphalt can be much hotter. Use the 7-second hand test on the actual sidewalk.",
+      href: "/is-pavement-too-hot-for-dogs-at-80-degrees",
+      linkLabel: "Read the 80°F pavement guide",
+    },
+    {
+      question: "Is it safe to walk a puppy in hot weather?",
+      answer:
+        "Only in short, shaded windows. Puppies have less heat reserve and thinner pads. Prefer grass and a loop you can cut short.",
+      href: "/is-it-safe-to-walk-a-puppy-in-hot-weather",
+      linkLabel: "Read the puppy heat guide",
+    },
+    {
+      question: "Is it safe to walk a senior dog in hot weather?",
+      answer:
+        "Use a tighter window than you would for a young adult. Older dogs cool less efficiently. Prefer shade, grass, and the coolest hour.",
+      href: "/is-it-safe-to-walk-a-senior-dog-in-hot-weather",
+      linkLabel: "Read the senior heat guide",
+    },
+    {
       question: "What is the Canine Thermal Model?",
       answer:
         "PawsOut is built on the Canine Thermal Model (CTM) — a scientific tool created by researchers to predict a dog's body temperature. It's like a virtual version of your dog that reacts to real weather conditions, not just a forecast. The model considers your dog's size, coat type, muzzle length, and environmental factors like temperature, sun, and wind to estimate how hot or cold your dog actually feels.",

@@ -14,6 +14,26 @@ const guides = [
     href: "/is-the-pavement-too-hot-for-my-dog",
     label: "Is the pavement too hot for my dog?",
   },
+  {
+    href: "/is-humidity-too-high-to-walk-my-dog",
+    label: "Is humidity too high to walk my dog?",
+  },
+  {
+    href: "/walking-brachycephalic-dogs-in-heat",
+    label: "Walking brachycephalic dogs in heat",
+  },
+  {
+    href: "/is-pavement-too-hot-for-dogs-at-80-degrees",
+    label: "Is pavement too hot for dogs at 80°F?",
+  },
+  {
+    href: "/is-it-safe-to-walk-a-puppy-in-hot-weather",
+    label: "Is it safe to walk a puppy in hot weather?",
+  },
+  {
+    href: "/is-it-safe-to-walk-a-senior-dog-in-hot-weather",
+    label: "Is it safe to walk a senior dog in hot weather?",
+  },
 ]
 
 export default function GuideLinks({ current }) {
