@@ -72,6 +72,39 @@ export default function RootLayout({ children }) {
                 price: "0",
                 priceCurrency: "USD",
               },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "5.0",
+                bestRating: "5",
+                worstRating: "1",
+                ratingCount: "3",
+              },
+              review: [
+                {
+                  "@type": "Review",
+                  author: { "@type": "Person", name: "Guifriivf" },
+                  name: "Necessity for those living in the desert",
+                  reviewBody:
+                    "This app has saved my dog's paws numerous times. Now I always check the app to know when is a safe time to walk my dog.",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                  },
+                },
+                {
+                  "@type": "Review",
+                  author: { "@type": "Person", name: "LeviahZ" },
+                  name: "Very helpful app",
+                  reviewBody:
+                    "Very clean, useful and easy app. Helps me plan when the best time is to take my pup out.",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                  },
+                },
+              ],
               screenshot: [
                 {
                   "@type": "ImageObject",
