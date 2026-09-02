@@ -112,7 +112,7 @@ export default function Home() {
 
             {/* Headline */}
             <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-5 md:mb-6 leading-[4.3rem] md:leading-tight">
-              Because dogs feels weather <em className="italic text-gray-700">differently.</em>
+              Because dogs feel weather <em className="italic text-gray-700">differently.</em>
             </h1>
 
             {/* Description */}

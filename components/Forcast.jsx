@@ -5,7 +5,7 @@ import ForcastCard from "./ForcastCard"
 export default function Forcast() {
   const dogs = [
     {
-      day: "TOMMOROW",
+      day: "TOMORROW",
       date: "July 21",
       hours: [
         "safe",
@@ -76,7 +76,7 @@ export default function Forcast() {
     <section className="pb-20 px-6 md:px-12 max-w-7xl mx-auto">
       {/* Header */}
       <div className="mb-5 md:mb-6">
-        <p className="text-sm font-semibold text-gray-600 tracking-widest mb-4">3-DAY FORCAST</p>
+        <p className="text-sm font-semibold text-gray-600 tracking-widest mb-4">3-DAY FORECAST</p>
         <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-5 md:mb-6">
           Three Days. <em className="italic text-gray-700">One forecast.</em>
         </h2>
