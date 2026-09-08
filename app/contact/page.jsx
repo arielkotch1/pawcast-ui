@@ -4,7 +4,8 @@ import { ogImage } from "@/lib/og"
 
 export const metadata = {
   title: "Contact Us | PawsOut",
-  description: "Get in touch with the PawsOut team. Send us your questions, feedback, or bug reports.",
+  description:
+    "Get in touch with the PawsOut team. Send us your questions, feedback, or bug reports.",
   robots: { index: true, follow: true },
   alternates: { canonical: "https://pawsout.app/contact" },
   openGraph: {

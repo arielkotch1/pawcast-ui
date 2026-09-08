@@ -103,8 +103,8 @@ export default function ColdWeatherGuide() {
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           There is no universal cutoff. A thick-coated working breed on a dry, still afternoon may
           be comfortable when a small, short-coated, senior, or puppy dog in wind and wet snow is
-          already too cold. Wind strips heat. Wet fur strips more. Ice and salt hurt paws before
-          the body feels frozen.
+          already too cold. Wind strips heat. Wet fur strips more. Ice and salt hurt paws before the
+          body feels frozen.
         </p>
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
           Midday is often safer than dawn or late night in winter. Keep the first loop short and
@@ -115,9 +115,9 @@ export default function ColdWeatherGuide() {
           Signs your dog is too cold
         </h2>
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
-          End the walk and get inside if you see shivering, tucked tail, lifting paws, slowing
-          down, anxiety, or a dog that wants to turn around. Cold injury can start in the ears,
-          tail, and paws. This guide is educational — if you are worried, contact a veterinarian.
+          End the walk and get inside if you see shivering, tucked tail, lifting paws, slowing down,
+          anxiety, or a dog that wants to turn around. Cold injury can start in the ears, tail, and
+          paws. This guide is educational — if you are worried, contact a veterinarian.
         </p>
 
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -125,8 +125,8 @@ export default function ColdWeatherGuide() {
         </h2>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           Packed snow and ice pull heat out of paws. Sidewalk salt and de-icers burn pads and make
-          dogs sick if they lick them. Wipe paws after every winter walk. Booties or a wax balm
-          help some dogs; others refuse them, so keep walks shorter on treated sidewalks.
+          dogs sick if they lick them. Wipe paws after every winter walk. Booties or a wax balm help
+          some dogs; others refuse them, so keep walks shorter on treated sidewalks.
         </p>
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
           If the ground is too painful for your ungloved hand, it is too harsh for bare paws. That
@@ -147,8 +147,8 @@ export default function ColdWeatherGuide() {
           <Link href="/" className="font-semibold text-highlight underline underline-offset-4">
             PawsOut
           </Link>{" "}
-          uses the Canine Thermal Model to estimate how your dog responds to real weather — wind
-          and cold included — not just the air temperature. It is the same idea as the{" "}
+          uses the Canine Thermal Model to estimate how your dog responds to real weather — wind and
+          cold included — not just the air temperature. It is the same idea as the{" "}
           <Link
             href="/is-it-safe-to-walk-my-dog-in-hot-weather"
             className="font-semibold text-highlight underline underline-offset-4"

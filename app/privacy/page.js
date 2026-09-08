@@ -7,7 +7,8 @@ import { ogImage } from "@/lib/og"
 
 export const metadata = {
   title: "Privacy Policy | PawsOut",
-  description: "Learn how PawsOut protects your privacy and handles your dog's data. All data is stored locally on your device.",
+  description:
+    "Learn how PawsOut protects your privacy and handles your dog's data. All data is stored locally on your device.",
   robots: { index: true, follow: true },
   alternates: { canonical: "https://pawsout.app/privacy" },
   openGraph: {

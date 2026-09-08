@@ -129,8 +129,15 @@ const faqJsonLd = {
 
 export const metadata = {
   title: "PawsOut | Is It Safe to Walk Your Dog?",
-  description: "Is it safe to walk your dog? PawsOut calculates real-time thermal safety for your pup based on weather, breed, pavement temperature, and terrain. Use the Canine Thermal Model for personalized dog walking recommendations.",
-  keywords: ["is it safe to walk my dog", "dog weather app", "dog heat safety", "when to walk your dog", "dog temperature safety"],
+  description:
+    "Is it safe to walk your dog? PawsOut calculates real-time thermal safety for your pup based on weather, breed, pavement temperature, and terrain. Use the Canine Thermal Model for personalized dog walking recommendations.",
+  keywords: [
+    "is it safe to walk my dog",
+    "dog weather app",
+    "dog heat safety",
+    "when to walk your dog",
+    "dog temperature safety",
+  ],
   openGraph: {
     title: "PawsOut | Dog Weather App",
     description: "Calculate safe walking conditions for your dog right now.",
@@ -183,7 +190,6 @@ export default function Home() {
                 </span>
                 5.0 · 3 RATINGS
               </a>
-
             </p>
 
             {/* Headline */}
@@ -193,7 +199,9 @@ export default function Home() {
 
             {/* Description */}
             <p className="text-lg text-gray-700 mb-5 md:mb-6 leading-relaxed max-w-lg">
-              Pawsout is built on the Canine Thermal Model (CTM) — a tool created by scientists to predict a dog's body temperature. Think of it as a virtual version of your dog that reacts to the weather, not just a forecast.
+              Pawsout is built on the Canine Thermal Model (CTM) — a tool created by scientists to
+              predict a dog's body temperature. Think of it as a virtual version of your dog that
+              reacts to the weather, not just a forecast.
             </p>
 
             {/* CTA Buttons */}
@@ -260,13 +268,18 @@ export default function Home() {
       <PerDogTuning />
       <Forcast />
       <section className="pb-20 px-6 md:px-12 max-w-7xl mx-auto">
-        <p className="text-sm font-semibold text-gray-600 tracking-widest mb-4">APP STORE REVIEWS</p>
+        <p className="text-sm font-semibold text-gray-600 tracking-widest mb-4">
+          APP STORE REVIEWS
+        </p>
         <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-5 md:mb-6">
           5.0 stars. <em className="italic text-gray-700">Real walks.</em>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <figure className="bg-white/60 backdrop-blur rounded-3xl p-8 border border-gray-200/30">
-            <div className="flex items-center gap-0.5 text-yellow-500 mb-4" aria-label="5 out of 5 stars">
+            <div
+              className="flex items-center gap-0.5 text-yellow-500 mb-4"
+              aria-label="5 out of 5 stars"
+            >
               <Star className="h-4 w-4 fill-current" />
               <Star className="h-4 w-4 fill-current" />
               <Star className="h-4 w-4 fill-current" />
@@ -274,14 +287,18 @@ export default function Home() {
               <Star className="h-4 w-4 fill-current" />
             </div>
             <blockquote className="text-lg text-gray-800 leading-relaxed mb-4">
-              This app has saved my dog&apos;s paws numerous times. Now I always check the app to know when is a safe time to walk my dog.
+              This app has saved my dog&apos;s paws numerous times. Now I always check the app to
+              know when is a safe time to walk my dog.
             </blockquote>
             <figcaption className="text-sm mt-auto font-semibold text-gray-600">
               Guifriivf · Necessity for those living in the desert
             </figcaption>
           </figure>
           <figure className="bg-white/60 backdrop-blur rounded-3xl p-8 border border-gray-200/30">
-            <div className="flex items-center gap-0.5 text-yellow-500 mb-4" aria-label="5 out of 5 stars">
+            <div
+              className="flex items-center gap-0.5 text-yellow-500 mb-4"
+              aria-label="5 out of 5 stars"
+            >
               <Star className="h-4 w-4 fill-current" />
               <Star className="h-4 w-4 fill-current" />
               <Star className="h-4 w-4 fill-current" />
@@ -289,7 +306,8 @@ export default function Home() {
               <Star className="h-4 w-4 fill-current" />
             </div>
             <blockquote className="text-lg text-gray-800 leading-relaxed mb-4">
-              Very clean, useful and easy app. Helps me plan when the best time is to take my pup out.
+              Very clean, useful and easy app. Helps me plan when the best time is to take my pup
+              out.
             </blockquote>
             <figcaption className="text-sm font-semibold text-gray-600">
               LeviahZ · Very helpful app

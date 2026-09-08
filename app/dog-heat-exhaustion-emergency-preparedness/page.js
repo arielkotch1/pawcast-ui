@@ -127,10 +127,7 @@ export default function HeatExhaustionEmergencyGuide() {
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           <GuideSection eyebrow="YOUR DOG" title="Plan safer walks before signs appear">
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              <Link
-                href="/"
-                className="font-semibold text-highlight underline underline-offset-4"
-              >
+              <Link href="/" className="font-semibold text-highlight underline underline-offset-4">
                 PawsOut
               </Link>{" "}
               helps you pick a safer walk window before overheating becomes a risk — combining

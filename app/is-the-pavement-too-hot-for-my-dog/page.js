@@ -113,8 +113,8 @@ export default function PavementGuide() {
           Which surfaces burn first
         </h2>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-          Dark asphalt and open parking lots heat fastest. Metal grates and dark playground
-          surfaces can be worse. Light concrete in shade is cooler. Grass stays safest in{" "}
+          Dark asphalt and open parking lots heat fastest. Metal grates and dark playground surfaces
+          can be worse. Light concrete in shade is cooler. Grass stays safest in{" "}
           <Link
             href="/is-it-safe-to-walk-my-dog-in-hot-weather"
             className="font-semibold text-highlight underline underline-offset-4"
@@ -134,8 +134,8 @@ export default function PavementGuide() {
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
           Limping, licking pads, refusing to walk, or darker/redder pads after a walk are warning
           signs. Get off the hot surface, onto grass or into the car, and cool the paws with room-
-          temperature water — not ice. This guide is educational. If pads look blistered or your
-          dog will not bear weight, contact a veterinarian.
+          temperature water — not ice. This guide is educational. If pads look blistered or your dog
+          will not bear weight, contact a veterinarian.
         </p>
 
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -143,8 +143,8 @@ export default function PavementGuide() {
         </h2>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           Early morning and later evening are usually safer than midday, but only if you retest.
-          Pavement can stay hot after the air has dropped. In winter the opposite problem shows
-          up — ice and salt — which we cover in{" "}
+          Pavement can stay hot after the air has dropped. In winter the opposite problem shows up —
+          ice and salt — which we cover in{" "}
           <Link
             href="/is-it-too-cold-to-walk-my-dog"
             className="font-semibold text-highlight underline underline-offset-4"

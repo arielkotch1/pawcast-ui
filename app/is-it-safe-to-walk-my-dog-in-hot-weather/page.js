@@ -101,9 +101,9 @@ export default function HotWeatherGuide() {
         </h2>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           There is no universal cutoff. A 28°C walk on shaded grass is a different walk than 28°C on
-          sun-baked asphalt. In direct sun, pavement and asphalt can run 20–30°C hotter than the air.
-          Thick coats, short muzzles, puppies, seniors, and overweight dogs overheat faster than a
-          young, lean, short-coated dog.
+          sun-baked asphalt. In direct sun, pavement and asphalt can run 20–30°C hotter than the
+          air. Thick coats, short muzzles, puppies, seniors, and overweight dogs overheat faster
+          than a young, lean, short-coated dog.
         </p>
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
           If you need a rule of thumb: if the ground is too hot for the back of your hand, skip the
@@ -133,9 +133,7 @@ export default function HotWeatherGuide() {
           scores a walk.
         </p>
 
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Watch for overheating
-        </h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Watch for overheating</h2>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           Stop the walk and get to shade and water if you see heavy panting, slowing down, glazed
           eyes, drooling, bright red gums, or a dog that wants to lie down and not get up. Heat

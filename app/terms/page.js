@@ -7,7 +7,8 @@ import { ogImage } from "@/lib/og"
 
 export const metadata = {
   title: "Terms of Service | PawsOut",
-  description: "Read PawsOut Terms of Service. PawsOut is an educational app. Always use your own judgment for your dog's safety.",
+  description:
+    "Read PawsOut Terms of Service. PawsOut is an educational app. Always use your own judgment for your dog's safety.",
   robots: { index: true, follow: true },
   alternates: { canonical: "https://pawsout.app/terms" },
   openGraph: {

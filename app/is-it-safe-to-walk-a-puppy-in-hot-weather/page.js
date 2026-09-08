@@ -53,7 +53,8 @@ export const metadata = {
   alternates: { canonical: pageUrl },
   openGraph: {
     title: "Is It Safe to Walk a Puppy in Hot Weather?",
-    description: "Puppies have less heat reserve and thinner pads. Learn when a short loop is still too much.",
+    description:
+      "Puppies have less heat reserve and thinner pads. Learn when a short loop is still too much.",
     url: pageUrl,
     siteName: "PawsOut",
     type: "article",
@@ -64,11 +65,19 @@ export const metadata = {
 export default function PuppyGuide() {
   return (
     <div className="min-h-screen bg-transparent">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <FloatingNav />
       <article className="pt-28 md:pt-32 pb-20 px-6 md:px-12 max-w-3xl mx-auto">
-        <p className="text-xs font-semibold text-gray-500 tracking-widest mb-3 md:mb-8">GUIDE · PUPPIES</p>
+        <p className="text-xs font-semibold text-gray-500 tracking-widest mb-3 md:mb-8">
+          GUIDE · PUPPIES
+        </p>
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-5 md:mb-6 leading-[3.4rem] md:leading-tight">
           Is it safe to walk a puppy in <em className="italic text-gray-700">hot weather?</em>
         </h1>
@@ -79,28 +88,41 @@ export default function PuppyGuide() {
           hurt.
         </p>
 
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Shorter, shadier, grass first</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Shorter, shadier, grass first
+        </h2>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           Use the coolest hour. Stay on shaded grass when you can. Do the{" "}
-          <Link href="/is-the-pavement-too-hot-for-my-dog" className="font-semibold text-highlight underline underline-offset-4">
+          <Link
+            href="/is-the-pavement-too-hot-for-my-dog"
+            className="font-semibold text-highlight underline underline-offset-4"
+          >
             7-second hand test
           </Link>{" "}
           before the sidewalk. If it fails, make it a potty break in the yard or a carry to grass —
           not a neighborhood loop. The same caution applies at{" "}
-          <Link href="/is-pavement-too-hot-for-dogs-at-80-degrees" className="font-semibold text-highlight underline underline-offset-4">
+          <Link
+            href="/is-pavement-too-hot-for-dogs-at-80-degrees"
+            className="font-semibold text-highlight underline underline-offset-4"
+          >
             80°F
           </Link>
           ; air temperature is not the pad temperature.
         </p>
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
           Flat-faced puppies need even more margin. See{" "}
-          <Link href="/walking-brachycephalic-dogs-in-heat" className="font-semibold text-highlight underline underline-offset-4">
+          <Link
+            href="/walking-brachycephalic-dogs-in-heat"
+            className="font-semibold text-highlight underline underline-offset-4"
+          >
             brachycephalic dogs in heat
           </Link>
           .
         </p>
 
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Stop earlier than you think</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Stop earlier than you think
+        </h2>
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
           Heavy panting, slowing down, lying down, or lifting paws means the walk is over. Carry
           water. This guide is educational. Ask your veterinarian about walk length for your
@@ -110,20 +132,42 @@ export default function PuppyGuide() {
 
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">A window, not a guess</h2>
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
-          <Link href="/" className="font-semibold text-highlight underline underline-offset-4">PawsOut</Link>{" "}
+          <Link href="/" className="font-semibold text-highlight underline underline-offset-4">
+            PawsOut
+          </Link>{" "}
           gives a next walk window from weather, surface, and your dog. Treat a puppy as more
           conservative than the adult version of the same breed. Pair this with the{" "}
-          <Link href="/is-it-safe-to-walk-my-dog-in-hot-weather" className="font-semibold text-highlight underline underline-offset-4">
+          <Link
+            href="/is-it-safe-to-walk-my-dog-in-hot-weather"
+            className="font-semibold text-highlight underline underline-offset-4"
+          >
             hot-weather guide
           </Link>
           .
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-4">
-          <a href={appStoreUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-highlight text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">Download PawsOut</a>
-          <a href={writeReviewUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 border-2 border-gray-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:border-gray-600 hover:bg-white/40 transition-colors">Rate PawsOut on the App Store</a>
+          <a
+            href={appStoreUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-highlight text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors"
+          >
+            Download PawsOut
+          </a>
+          <a
+            href={writeReviewUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 border-2 border-gray-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:border-gray-600 hover:bg-white/40 transition-colors"
+          >
+            Rate PawsOut on the App Store
+          </a>
         </div>
-        <p className="text-sm text-gray-600 leading-relaxed mb-4">PawsOut is an educational weather tool, not a medical diagnosis. Always use your own judgment for your dog&apos;s safety.</p>
+        <p className="text-sm text-gray-600 leading-relaxed mb-4">
+          PawsOut is an educational weather tool, not a medical diagnosis. Always use your own
+          judgment for your dog&apos;s safety.
+        </p>
         <GuideLinks current="/is-it-safe-to-walk-a-puppy-in-hot-weather" />
       </article>
     </div>

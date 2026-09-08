@@ -15,7 +15,8 @@ const productHuntUrl = "https://www.producthunt.com/products/pawsout"
 export const metadata = {
   metadataBase: new URL(baseUrl),
   title: "PawsOut | Dog Weather App",
-  description: "Calculate safe walking conditions for your dog based on real-time weather, breed, and terrain. Check if it's safe to walk your dog today.",
+  description:
+    "Calculate safe walking conditions for your dog based on real-time weather, breed, and terrain. Check if it's safe to walk your dog today.",
   keywords: [
     "dog safety",
     "dog walking",
@@ -36,7 +37,8 @@ export const metadata = {
     url: baseUrl,
     siteName: "PawsOut",
     title: "PawsOut | Dog Weather App",
-    description: "Calculate safe walking conditions for your dog based on weather, breed, and terrain.",
+    description:
+      "Calculate safe walking conditions for your dog based on weather, breed, and terrain.",
     images: [ogImage],
   },
   twitter: {
@@ -61,7 +63,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "MobileApplication",
               name: "PawsOut",
-              description: "Calculate safe walking conditions for your dog based on real-time weather, breed, and terrain using the Canine Thermal Model",
+              description:
+                "Calculate safe walking conditions for your dog based on real-time weather, breed, and terrain using the Canine Thermal Model",
               url: baseUrl,
               applicationCategory: "HealthApplication",
               operatingSystem: "iOS",
@@ -140,7 +143,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="min-h-screen bg-transparent">
         {/* <main className="min-h-screen bg-gradient-to-br from-[#E8F3EE]/60 via-[#B8D8C8]/70 to-[#5EA280]"> */}
-          {children}
+        {children}
         {/* </main> */}
         <Analytics />
       </body>

@@ -69,7 +69,8 @@ export const metadata = {
   alternates: { canonical: pageUrl },
   openGraph: {
     title: "Dog Walk Safety Guides | PawsOut",
-    description: "Hot weather, cold, humidity, pavement, puppies, and seniors — when is a walk actually safe?",
+    description:
+      "Hot weather, cold, humidity, pavement, puppies, and seniors — when is a walk actually safe?",
     url: pageUrl,
     siteName: "PawsOut",
     type: "website",
