@@ -23,6 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/dog-heat-exhaustion-emergency-preparedness`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/is-it-too-cold-to-walk-my-dog`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

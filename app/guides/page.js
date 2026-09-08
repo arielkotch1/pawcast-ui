@@ -12,6 +12,12 @@ const guides = [
     blurb: "Air temperature is not enough. Pavement, shade, and breed change the answer.",
   },
   {
+    href: "/dog-heat-exhaustion-emergency-preparedness",
+    eyebrow: "EMERGENCY",
+    title: "Emergency preparedness for dog heat exhaustion",
+    blurb: "Early warning signs, emergency steps, and cooling mistakes to avoid.",
+  },
+  {
     href: "/is-it-too-cold-to-walk-my-dog",
     eyebrow: "COLD WEATHER",
     title: "Is it too cold to walk my dog?",

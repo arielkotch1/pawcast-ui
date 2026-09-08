@@ -7,6 +7,10 @@ const guides = [
     label: "Is it safe to walk my dog in hot weather?",
   },
   {
+    href: "/dog-heat-exhaustion-emergency-preparedness",
+    label: "Emergency preparedness for dog heat exhaustion",
+  },
+  {
     href: "/is-it-too-cold-to-walk-my-dog",
     label: "Is it too cold to walk my dog?",
   },

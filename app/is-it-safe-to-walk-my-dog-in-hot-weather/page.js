@@ -139,8 +139,15 @@ export default function HotWeatherGuide() {
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           Stop the walk and get to shade and water if you see heavy panting, slowing down, glazed
           eyes, drooling, bright red gums, or a dog that wants to lie down and not get up. Heat
-          illness can escalate quickly. This guide is educational — if you are worried, contact a
-          veterinarian.
+          illness can escalate quickly. Read the{" "}
+          <Link
+            href="/dog-heat-exhaustion-emergency-preparedness"
+            className="font-semibold text-highlight underline underline-offset-4"
+          >
+            emergency preparedness guide
+          </Link>{" "}
+          for warning signs and cooling steps. This guide is educational — if you are worried,
+          contact a veterinarian.
         </p>
         <p className="text-lg text-gray-700 mb-10 leading-relaxed">
           Early morning and later evening are usually safer than midday. Carry water. Keep walks
