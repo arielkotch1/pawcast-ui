@@ -43,7 +43,7 @@ export default async function Image() {
               fontFamily: "Urbanist",
             }}
           >
-            Pawsout
+            PawsOut: Dog Walk Weather
           </div>
         </div>
 

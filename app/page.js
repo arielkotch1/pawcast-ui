@@ -128,19 +128,19 @@ const faqJsonLd = {
 }
 
 export const metadata = {
-  title: "PawsOut | Is It Safe to Walk Your Dog?",
+  title: "PawsOut: Dog Walk Weather",
   description:
-    "Is it safe to walk your dog? PawsOut calculates real-time thermal safety for your pup based on weather, breed, pavement temperature, and terrain. Use the Canine Thermal Model for personalized dog walking recommendations.",
+    "PawsOut: Dog Walk Weather calculates real-time thermal safety for your dog from weather, breed, pavement temperature, and terrain.",
   keywords: [
-    "is it safe to walk my dog",
+    "PawsOut",
+    "dog walk weather",
     "dog weather app",
-    "dog heat safety",
+    "paw safety",
     "when to walk your dog",
-    "dog temperature safety",
   ],
   openGraph: {
-    title: "PawsOut | Dog Weather App",
-    description: "Calculate safe walking conditions for your dog right now.",
+    title: "PawsOut: Dog Walk Weather",
+    description: "The dog walk weather app that scores paw safety before you go.",
     url: "https://pawsout.app",
     siteName: "PawsOut",
     type: "website",
@@ -163,7 +163,7 @@ export default function Home() {
           <div className="min-w-0">
             {/* Badge */}
             <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold text-gray-500 tracking-widest mb-3 md:mb-8">
-              <span>PAWSOUT · IOS</span>
+              <span>PAWSOUT: DOG WALK WEATHER</span>
               <span aria-hidden="true">·</span>
               <a
                 href="https://www.producthunt.com/products/pawsout"
@@ -194,12 +194,13 @@ export default function Home() {
 
             {/* Headline */}
             <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-5 md:mb-6 leading-[4.3rem] md:leading-tight">
-              Because dogs feel weather <em className="italic text-gray-700">differently.</em>
+              PawsOut. Because dogs feel weather{" "}
+              <em className="italic text-gray-700">differently.</em>
             </h1>
 
             {/* Description */}
             <p className="text-lg text-gray-700 mb-5 md:mb-6 leading-relaxed max-w-lg">
-              Pawsout is built on the Canine Thermal Model (CTM) — a tool created by scientists to
+              PawsOut is built on the Canine Thermal Model (CTM) — a tool created by scientists to
               predict a dog's body temperature. Think of it as a virtual version of your dog that
               reacts to the weather, not just a forecast.
             </p>

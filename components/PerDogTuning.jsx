@@ -67,7 +67,7 @@ export default function PerDogTuning() {
           Same weather. <em className="italic text-gray-700">Different dogs.</em>
         </h2>
         <p className="text-lg text-gray-700 max-w-2xl leading-relaxed max-w-[700px]">
-          Pawsout looks beyond the forecast, combining your dog's unique traits with temperature,
+          PawsOut looks beyond the forecast, combining your dog's unique traits with temperature,
           sun, wind, and ground conditions to estimate how safe a walk really is.
         </p>
       </div>

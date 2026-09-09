@@ -14,9 +14,9 @@ const productHuntUrl = "https://www.producthunt.com/products/pawsout"
 
 export const metadata = {
   metadataBase: new URL(baseUrl),
-  title: "PawsOut | Dog Weather App",
+  title: "PawsOut: Dog Walk Weather",
   description:
-    "Calculate safe walking conditions for your dog based on real-time weather, breed, and terrain. Check if it's safe to walk your dog today.",
+    "PawsOut: Dog Walk Weather scores safe walking conditions for your dog from real-time weather, breed, and terrain.",
   keywords: [
     "dog safety",
     "dog walking",
@@ -36,15 +36,15 @@ export const metadata = {
     locale: "en_US",
     url: baseUrl,
     siteName: "PawsOut",
-    title: "PawsOut | Dog Weather App",
+    title: "PawsOut: Dog Walk Weather",
     description:
-      "Calculate safe walking conditions for your dog based on weather, breed, and terrain.",
+      "PawsOut: Dog Walk Weather scores safe walking conditions from weather, breed, and terrain.",
     images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PawsOut - Dog Weather Safety",
-    description: "Calculate safe walking conditions for your dog.",
+    title: "PawsOut: Dog Walk Weather",
+    description: "The dog walk weather app that scores paw safety before you go.",
     images: [ogImage.url],
   },
   robots: { index: true, follow: true },
@@ -73,9 +73,10 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MobileApplication",
-              name: "PawsOut",
+              name: "PawsOut: Dog Walk Weather",
+              alternateName: ["PawsOut", "Paws Out"],
               description:
-                "Calculate safe walking conditions for your dog based on real-time weather, breed, and terrain using the Canine Thermal Model",
+                "PawsOut: Dog Walk Weather calculates safe walking conditions from real-time weather, breed, and terrain using the Canine Thermal Model",
               url: baseUrl,
               applicationCategory: "HealthApplication",
               operatingSystem: "iOS",
@@ -141,7 +142,7 @@ export default function RootLayout({ children }) {
               name: "PawsOut",
               url: baseUrl,
               logo: `${baseUrl}/pawsout-logo.png`,
-              description: "Dog weather safety app using the Canine Thermal Model",
+              description: "PawsOut: Dog Walk Weather — paw safety from the Canine Thermal Model",
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "Customer Support",
