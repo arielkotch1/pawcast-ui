@@ -67,13 +67,27 @@ export const metadata = {
   robots: { index: true, follow: true },
   alternates: { canonical: pageUrl },
   openGraph: {
-    title: "Emergency Preparedness for Dog Heat Exhaustion",
+    title: "Warning signs your dog is overheating",
     description:
       "Early and emergency signs of overheating in dogs — what to watch for during hot-weather walks.",
     url: pageUrl,
     siteName: "PawsOut",
     type: "article",
-    images: [ogImage],
+    images: [
+      {
+        url: "/dog-heat-exhaustion-emergency-preparedness/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Warning signs your dog is overheating",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Warning signs your dog is overheating",
+    description:
+      "Early and emergency signs of overheating in dogs — what to watch for during hot-weather walks.",
+    images: ["/dog-heat-exhaustion-emergency-preparedness/opengraph-image"],
   },
 }
 
