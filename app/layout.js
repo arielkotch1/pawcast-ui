@@ -1,4 +1,5 @@
 import { Geist_Mono } from "next/font/google"
+import Script from "next/script"
 import { Analytics } from "@vercel/analytics/next"
 import { ogImage } from "@/lib/og"
 import "./globals.css"
@@ -145,6 +146,18 @@ export default function RootLayout({ children }) {
         {/* <main className="min-h-screen bg-gradient-to-br from-[#E8F3EE]/60 via-[#B8D8C8]/70 to-[#5EA280]"> */}
         {children}
         {/* </main> */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-MTCJDF2LK6"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MTCJDF2LK6');
+          `}
+        </Script>
         <Analytics />
       </body>
     </html>

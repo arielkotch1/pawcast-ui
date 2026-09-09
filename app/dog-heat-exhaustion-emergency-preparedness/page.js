@@ -8,7 +8,6 @@ import {
   OverheatActions,
   OverheatingSigns,
 } from "@/components/guide/HotWeatherVisuals"
-import { ogImage } from "@/lib/og"
 import homeScreen from "@/public/home.png"
 
 const appStoreUrl = "https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
@@ -27,7 +26,7 @@ const articleJsonLd = {
   dateModified: "2026-09-08",
   author: { "@type": "Organization", name: "PawsOut", url: "https://pawsout.app" },
   publisher: { "@type": "Organization", name: "PawsOut", url: "https://pawsout.app" },
-  image: ogImage.url,
+  image: `${pageUrl}/opengraph-image`,
 }
 
 const faqJsonLd = {
