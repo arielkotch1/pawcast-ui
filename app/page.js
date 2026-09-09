@@ -128,9 +128,9 @@ const faqJsonLd = {
 }
 
 export const metadata = {
-  title: "PawsOut: Dog Walk Weather",
+  title: "PawsOut | Dog Walk Weather",
   description:
-    "PawsOut: Dog Walk Weather calculates real-time thermal safety for your dog from weather, breed, pavement temperature, and terrain.",
+    "PawsOut is the dog walk weather app that calculates real-time thermal safety from weather, breed, pavement temperature, and terrain.",
   keywords: [
     "PawsOut",
     "dog walk weather",
@@ -139,7 +139,7 @@ export const metadata = {
     "when to walk your dog",
   ],
   openGraph: {
-    title: "PawsOut: Dog Walk Weather",
+    title: "PawsOut | Dog Walk Weather",
     description: "The dog walk weather app that scores paw safety before you go.",
     url: "https://pawsout.app",
     siteName: "PawsOut",
@@ -163,7 +163,7 @@ export default function Home() {
           <div className="min-w-0">
             {/* Badge */}
             <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold text-gray-500 tracking-widest mb-3 md:mb-8">
-              <span>PAWSOUT: DOG WALK WEATHER</span>
+              <span>PAWSOUT | DOG WALK WEATHER</span>
               <span aria-hidden="true">·</span>
               <a
                 href="https://www.producthunt.com/products/pawsout"

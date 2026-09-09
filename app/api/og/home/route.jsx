@@ -45,7 +45,7 @@ export async function GET() {
               fontFamily: "Urbanist",
             }}
           >
-            PawsOut: Dog Walk Weather
+            PawsOut | Dog Walk Weather
           </div>
         </div>
 

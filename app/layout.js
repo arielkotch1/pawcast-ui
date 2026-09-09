@@ -14,9 +14,9 @@ const productHuntUrl = "https://www.producthunt.com/products/pawsout"
 
 export const metadata = {
   metadataBase: new URL(baseUrl),
-  title: "PawsOut: Dog Walk Weather",
+  title: "PawsOut | Dog Walk Weather",
   description:
-    "PawsOut: Dog Walk Weather scores safe walking conditions for your dog from real-time weather, breed, and terrain.",
+    "PawsOut is the dog walk weather app that scores safe walking conditions from real-time weather, breed, and terrain.",
   keywords: [
     "dog safety",
     "dog walking",
@@ -36,14 +36,14 @@ export const metadata = {
     locale: "en_US",
     url: baseUrl,
     siteName: "PawsOut",
-    title: "PawsOut: Dog Walk Weather",
+    title: "PawsOut | Dog Walk Weather",
     description:
-      "PawsOut: Dog Walk Weather scores safe walking conditions from weather, breed, and terrain.",
+      "PawsOut is the dog walk weather app that scores safe walking conditions from weather, breed, and terrain.",
     images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PawsOut: Dog Walk Weather",
+    title: "PawsOut | Dog Walk Weather",
     description: "The dog walk weather app that scores paw safety before you go.",
     images: [ogImage.url],
   },
@@ -142,7 +142,7 @@ export default function RootLayout({ children }) {
               name: "PawsOut",
               url: baseUrl,
               logo: `${baseUrl}/pawsout-logo.png`,
-              description: "PawsOut: Dog Walk Weather — paw safety from the Canine Thermal Model",
+              description: "Maker of PawsOut: Dog Walk Weather, the iOS paw safety app.",
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "Customer Support",
