@@ -3,13 +3,19 @@ import FloatingNav from "@/components/FloatingNav"
 import GuideLinks from "@/components/GuideLinks"
 import GuideSection from "@/components/guide/GuideSection"
 import { EmergencyProtocolCorrections } from "@/components/guide/HotWeatherVisuals"
-import { ogImage } from "@/lib/og"
 import PhoneMockup from "@/components/guide/PhoneMockup"
 import homeScreen from "@/public/home.png"
 
 const appStoreUrl = "https://apps.apple.com/us/app/pawsout-dog-walk-weather/id6754534280"
 const writeReviewUrl = `${appStoreUrl}?action=write-review`
 const pageUrl = "https://pawsout.app/5-things-you-should-never-do-if-your-dog-overheats"
+const pageOgImageUrl = `${pageUrl}/opengraph-image`
+const pageOgImage = {
+  url: pageOgImageUrl,
+  width: 1200,
+  height: 630,
+  alt: "Dog Overheating? 5 Mistakes Most Owners Make",
+}
 
 const articleJsonLd = {
   "@context": "https://schema.org",
@@ -22,7 +28,7 @@ const articleJsonLd = {
   dateModified: "2026-09-10",
   author: { "@type": "Organization", name: "PawsOut", url: "https://pawsout.app" },
   publisher: { "@type": "Organization", name: "PawsOut", url: "https://pawsout.app" },
-  image: ogImage.url,
+  image: pageOgImageUrl,
 }
 
 const faqJsonLd = {
@@ -69,7 +75,14 @@ export const metadata = {
     url: pageUrl,
     siteName: "PawsOut",
     type: "article",
-    images: [ogImage],
+    images: [pageOgImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dog Overheating? 5 Mistakes Most Owners Make",
+    description:
+      "Avoid these five common mistakes when a dog overheats — and know what to do next.",
+    images: [pageOgImageUrl],
   },
 }
 
