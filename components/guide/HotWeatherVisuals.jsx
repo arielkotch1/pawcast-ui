@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const earlySigns = [
   "Unusually heavy panting that does not settle",
   "Thick or excessive drooling",
@@ -51,20 +53,25 @@ const emergencySteps = [
 
 const protocolCorrections = [
   {
-    wrong: "Ice baths or ice packs",
+    wrong: "Don't use ice baths or ice packs",
     right: "Cool water only. Ice causes blood vessels to constrict and can trap heat inside.",
   },
   {
-    wrong: "Wrapping in wet towels",
+    wrong: "Don't wrap your dog in wet towels",
     right: "Keep airflow moving. Wet fur plus still air traps heat.",
   },
   {
-    wrong: "Continuing the walk once they seem better",
+    wrong: "Don't restart the walk",
     right: "Stop for the day. Internal temperature can still be dangerously high.",
   },
   {
-    wrong: "Waiting to see if they recover at home",
+    wrong: "Don't wait for recovery at home",
     right: "Heatstroke can relapse. Always seek emergency vet care.",
+  },
+  {
+    wrong: "Don't force water into their mouth",
+    right:
+      "Offer only small sips if your dog is alert and swallowing normally. Never pour water into their mouth because they can inhale it.",
   },
 ]
 
@@ -135,7 +142,9 @@ export function EmergencyProtocolCorrections() {
         >
           <div>
             <p className="text-xs font-semibold tracking-widest text-red-600 mb-2">DO NOT</p>
-            <p className="text-gray-900 font-semibold leading-relaxed mb-4">{item.wrong}</p>
+            <p className="text-lg md:text-xl text-gray-900 font-bold leading-tight mb-4">
+              {item.wrong}
+            </p>
           </div>
           <div>
             <p className="text-xs font-semibold tracking-widest text-green-700 mb-2">INSTEAD</p>
@@ -143,6 +152,22 @@ export function EmergencyProtocolCorrections() {
           </div>
         </div>
       ))}
+      <Link
+        href="/dog-heat-exhaustion-emergency-preparedness"
+        className="rounded-3xl bg-highlight p-6 md:p-8 text-white hover:bg-brand transition-colors"
+      >
+        <p className="text-xs font-semibold tracking-widest text-white/80 mb-2">
+          EMERGENCY ACTION / VET CALL
+        </p>
+        <h3 className="text-xl font-bold mb-3">Call your emergency vet now</h3>
+        <p className="text-white/90 leading-relaxed mb-6">
+          Cooling is first aid, not treatment. Call your nearest emergency veterinarian and go
+          immediately, even if your dog seems better.
+        </p>
+        <span className="font-semibold underline underline-offset-4">
+          Read the full emergency protocol →
+        </span>
+      </Link>
     </div>
   )
 }

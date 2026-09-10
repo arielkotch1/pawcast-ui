@@ -11,6 +11,10 @@ const guides = [
     label: "Emergency preparedness for dog heat exhaustion",
   },
   {
+    href: "/5-things-you-should-never-do-if-your-dog-overheats",
+    label: "Dog Overheating? 5 Mistakes Most Owners Make",
+  },
+  {
     href: "/is-it-too-cold-to-walk-my-dog",
     label: "Is it too cold to walk my dog?",
   },

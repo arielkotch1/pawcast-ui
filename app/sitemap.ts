@@ -29,6 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/5-things-you-should-never-do-if-your-dog-overheats`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/is-it-too-cold-to-walk-my-dog`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

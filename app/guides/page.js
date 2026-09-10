@@ -18,6 +18,12 @@ const guides = [
     blurb: "Early warning signs, emergency steps, and cooling mistakes to avoid.",
   },
   {
+    href: "/5-things-you-should-never-do-if-your-dog-overheats",
+    eyebrow: "EMERGENCY",
+    title: "Dog Overheating? 5 Mistakes Most Owners Make",
+    blurb: "Five common mistakes that can make overheating worse or delay emergency care.",
+  },
+  {
     href: "/is-it-too-cold-to-walk-my-dog",
     eyebrow: "COLD WEATHER",
     title: "Is it too cold to walk my dog?",
